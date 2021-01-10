@@ -1,0 +1,16 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.1",
+  "description": "bu benim twich botum",
+  "main": "Hawli.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node Hawli.js"
+  },
+  "author": "Seymen",
+  "license": "ISC"
+}
