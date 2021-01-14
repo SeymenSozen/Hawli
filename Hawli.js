@@ -38,7 +38,17 @@ client.action(Kanal, 'Bot başarıyla bağlandı');
 });
 //komutlar 
 client.on('chat', (channel, user, message, self) => {
-    if (message === Prefix + "nick") {
+    if (message === Prefix + "çekiliş") {
+        client.action(Kanal, "Çekilişe Katılma Şartları: 1-Kanalımı Takip Etme, 2-Discord Sunucumda Bulunma, 3-Bot komut kanalına !Çekiliş + Nickinizi Yazmanız Gerekiyor. İyi Şanslar Umarım Sana :çıkar");
+       
+    }
+    if (message === Prefix + "Çekiliş") {
+        client.action(Kanal, "Çekilişe Katılma Şartları: 1-Kanalımı Takip Etme, 2-Discord Sunucumda Bulunma, 3-Bot komut kanalına !Çekiliş + Nickinizi Yazmanız Gerekiyor. İyi Şanslar Umarım Sana :çıkar");
+    }
+    if (message === Prefix + "ÇEKİLİŞ") {
+        client.action(Kanal, "Çekilişe Katılma Şartları: 1-Kanalımı Takip Etme, 2-Discord Sunucumda Bulunma, 3-Bot komut kanalına !Çekiliş + Nickinizi Yazmanız Gerekiyor. İyi Şanslar Umarım Sana :çıkar");
+    }
+   if (message === Prefix + "nick") {
        client.action(Kanal, Nick);
    }
    if (message === Prefix + "Nick") {
